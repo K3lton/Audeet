@@ -17,9 +17,10 @@ The Automated Linux Tool is a command-line utility designed to streamline and au
 To get started with the Automated Linux Tool, follow these steps:
 
 1. Clone this repository to your local Linux machine.
-2. Navigate to the tool's directory: `cd automated-linux-tool`.
-3. Run the tool: `./audeet.sh`.
-4. Choose a section to check on the html page.
+2. Install node js if needed: `apt install node.js`
+3. Navigate to the tool's directory: `cd automated-linux-tool`.
+4. Run the tool: `./audeet.sh`.
+5. Choose a section to check on the html page.
    
 ## Requirements
 
