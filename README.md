@@ -1,14 +1,18 @@
 ## Disclainmer
-This tool is not 100% safe and users should use this tool at their own risk
+This tool is not 100% safe and users should use this tool at their own risk.
+This tool is prone to error and users should check the reports carefully.
 
 # Audeet - Automated Linux Tool
 
 The Automated Linux Tool is a command-line utility designed to streamline and automate various tasks on Linux systems. This tool is developed to simplify routine operations, enhance efficiency, and reduce manual intervention.
 
+# Required Dependencies
+This tool requires node js to properly function.
+
 ## Features
 
-- **Task Automation:** The tool provides a range of automated tasks, including software installations, system updates, file operations, and more. This helps users save time and reduce the risk of errors.
-- **Reporting:** The tool generates detailed reports for each executed task, ensuring transparency and accountability. Users can review task outcomes and troubleshoot issues using the logs.
+- **Audit Automation:** The tool provides an automated audit check for linux systems. This helps users save time and reduce the risk of errors.
+- **Reporting:** The tool generates detailed reports for each executed task, ensuring transparency and accountability. Users can review task outcomes and troubleshoot issues using the reports.
 - **Automated remediation:** This tool helps remediate non-compliant sections automatically if possible.
 
 ## Getting Started
