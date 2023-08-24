@@ -6,9 +6,6 @@ This tool is prone to error and users should check the reports carefully.
 
 The Automated Linux Tool is a command-line utility designed to streamline and automate various tasks on Linux systems. This tool is developed to simplify routine operations, enhance efficiency, and reduce manual intervention.
 
-## Required Dependencies
-This tool requires node js to properly function.
-
 ## Features
 
 - **Audit Automation:** The tool provides an automated audit check for linux systems. This helps users save time and reduce the risk of errors.
@@ -31,6 +28,7 @@ For more detailed instructions and usage examples, please refer to the [User Gui
 
 - Linux-based operating system (tested on Ubuntu 22.04 and CentOS 8)
 - Bash shell (version 4.0 or higher)
+- Node js
 
 ## Credits
 
