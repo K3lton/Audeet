@@ -1,4 +1,4 @@
-## Disclainmer
+# Disclainmer
 This tool is not 100% safe and users should use this tool at their own risk.
 This tool is prone to error and users should check the reports carefully.
 
@@ -6,7 +6,7 @@ This tool is prone to error and users should check the reports carefully.
 
 The Automated Linux Tool is a command-line utility designed to streamline and automate various tasks on Linux systems. This tool is developed to simplify routine operations, enhance efficiency, and reduce manual intervention.
 
-# Required Dependencies
+## Required Dependencies
 This tool requires node js to properly function.
 
 ## Features
