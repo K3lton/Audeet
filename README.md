@@ -18,7 +18,7 @@ To get started with the Automated Linux Tool, follow these steps:
 
 1. Clone this repository to your local Linux machine.
 2. Install node js if needed: apt install `apt install node.js`
-3. Navigate to the tools directory: 'cd audeet'
+3. Navigate to the tools directory: `cd audeet`.
 4. Run node js after accessing the "audeet" directory ; `node server.js` 
 5. Access the webpage on a browser using localhost; `localhost:3000`.
 6. Choose a section to check on the html page.
