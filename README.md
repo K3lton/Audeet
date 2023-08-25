@@ -12,6 +12,12 @@ The Automated Linux Tool is a command-line utility designed to streamline and au
 - **Reporting:** The tool generates detailed reports for each executed task, ensuring transparency and accountability. Users can review task outcomes and troubleshoot issues using the reports.
 - **Automated remediation:** This tool helps remediate non-compliant sections automatically if possible.
 
+## Requirements
+
+- Linux-based operating system (tested on Ubuntu 22.04 and CentOS 8)
+- Bash shell (version 4.0 or higher)
+- Node js
+  
 ## Getting Started
 
 To get started with the Automated Linux Tool, follow these steps:
@@ -23,12 +29,6 @@ To get started with the Automated Linux Tool, follow these steps:
 5. Access the webpage on a browser using localhost; `localhost:3000`.
 6. Choose a section to check on the html page.
 
-## Requirements
-
-- Linux-based operating system (tested on Ubuntu 22.04 and CentOS 8)
-- Bash shell (version 4.0 or higher)
-- Node js
-
 ## Credits
 
-This project is licensed under the [MIT License](LICENSE).
+This project is created by Caedon low Chi Shun, Lim Tian Xin, Kelton Kung Jun Wei, Sameul Tan Yue Jun under Temasek Polytechnic.
