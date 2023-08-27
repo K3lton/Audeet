@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUDEET - Audit Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .section-buttons {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .section-button {
+            flex: 0 0 calc(33.33% - 20px);
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 20px;
+            background-color: #428bca;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .section-button:hover {
+            background-color: #357ebd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">AUDEET - Audit Tool</div>
+        <div class="section-buttons">
+            <button class="section-button" onclick="location.href='test'">Audit Section 1</button>
+            <button class="section-button" onclick="location.href='section.html?section=2'">Audit Section 2</button>
+            <button class="section-button" onclick="location.href='section.html?section=3'">Audit Section 3</button>
+            <button class="section-button" onclick="location.href='section.html?section=4'">Audit Section 4</button>
+            <button class="section-button" onclick="location.href='audit1.sh'">Audit Section 5</button>
+            <button class="section-button" onclick="location.href='section.html?section=6'">Audit Section 6</button>
+        </div>
+    </div>
+</body>
+</html>
+

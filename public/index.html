@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUDEET</title>
+<style>
+body {
+    background: #000; /* Fallback background color */
+    overflow: hidden; /* Prevent scrollbars from appearing */
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: -1; /* Place the video behind the content */
+
+}
+
+</style>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #659DBD; display: flex; justify-content: center; align-items: center; height: 100vh;">
+   
+<video id="video-background" autoplay muted loop>
+    <source src="backg.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+
+	<div style="text-align: center; background-color: #0b0C10; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); padding: 20px;">
+        <h1 style="color: #ffffff;">AUDEET</h1>
+        <p style="color: #ffffff;">An auditing tool is for Linux Ubuntu Server LTS v22.04.2. This utilizes the CIS Benchmark for Ubuntu Server LTS v1.0.0.</p>
+        <a href="/audit_sections" style="text-decoration: none;">
+            <button style="padding: 10px 20px; background-color: #000000; color: #ffffff; border: none; border-radius: 4px; cursor: pointer; transition: background-color 0.3s ease;">
+                Start Audit
+            </button>
+        </a>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AUDEET</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+            background-color: #0B0C10;
+            color: #fff;
+        }
+
+        .section-button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #0B0C10;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+	.det-but {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px 15px;
+            background-color: #0B0C10;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+	    text-align: center;
+        }
+   .use-at-your-own-risk {
+            text-align: center;
+            margin: 20px;
+            color: #ff0000;
+            font-size: 24px;
+        }
+
+        .details-link {
+            display: inline-block;
+            margin: 10px;
+            color: #0B0C10;
+            text-decoration: none;
+        }
+
+        .details-link:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            text-align: center;
+            margin: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>AUDEET</h1>
+
+    <!-- Section Buttons -->
+    <a href="/run_audit?section=1" class="section-button">Audit Section 1</a>
+    <a href="/run_audit?section=2" class="section-button">Audit Section 2</a>
+    <a href="/run_audit?section=3" class="section-button">Audit Section 3</a>
+    <a href="/run_audit?section=4" class="section-button">Audit Section 4</a>
+    <a href="/run_audit?section=5" class="section-button">Audit Section 5</a>
+    <a href="/run_audit?section=6" class="section-button">Audit Section 6</a>
+
+    <h2>More Details</h2>
+
+    <p>You should only be clicking on "more details" upon running the respective scripts to see the details of the titles that failed the compliance check!</p>
+    
+    <!-- More Details Links -->
+    <a href="/show_details?section=1" class="det-but">More Details for Section 1</a>
+    <a href="/show_details?section=2" class="det-but">More Details for Section 2</a>
+    <a href="/show_details?section=3" class="det-but">More Details for Section 3</a>
+    <a href="/show_details?section=4" class="det-but">More Details for Section 4</a>
+    <a href="/show_details?section=5" class="det-but">More Details for Section 5</a>
+    <a href="/show_details?section=6" class="det-but">More Details for Section 6</a>
+   
+    <br><br>
+
+    <h2> Remediation Scripts </h2>
+<p class="use-at-your-own-risk">USE AT YOUR OWN RISK!</p>
+<p>These should only be used after you run the main scripts!</p>
+    <!-- Remediation Script Links -->
+    <a href="/run_remediation?section=1" class="det-but">Remediation Script for Section 1</a>
+    <a href="/run_remediation?section=2" class="det-but">Remediation Script for Section 2</a>
+    <a href="/run_remediation?section=3" class="det-but">Remediation Script for Section 3</a>
+    <a href="/run_remediation?section=4" class="det-but">Remediation Script for Section 4</a>
+    <a href="/run_remediation?section=5" class="det-but">Remediation Script for Section 5</a>
+    <a href="/run_remediation?section=6" class="det-but">Remediation Script for Section 6</a>
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+Section | Title | Compliance
+------- | ----- | ----------
+5.1.1       Ensure cron daemon is enabled and running (Automated)                                     Pass
+5.1.2       Ensure permissions on /etc/crontab are configured (Automated)                             Fail
+5.1.3       Ensure permissions on /etc/cron.hourly are configured (Automated)                         Fail
+5.1.4       Ensure permissions on /etc/cron.daily are configured (Automated)                          Fail
+5.1.5       Ensure permissions on /etc/cron.weekly are configured (Automated)                         Fail
+5.1.6       Ensure permissions on /etc/cron.monthly are configured (Automated)                        Fail
+5.1.7       Ensure permissions on /etc/cron.d are configured (Automated)                              Fail
+5.1.8       Ensure cron is restricted to authorized users (Automated)                                 Fail
+5.1.9       Ensure at is restricted to authorized users (Automated)                                   Pass
+5.2.1       Ensure permissions on /etc/ssh/sshd_config are configured (Automated)                     Pass
+5.2.3       Ensure permissions on SSH public host key files are configured (Automated)                Pass
+5.2.4       Ensure SSH access is limited (Automated)                                                  Pass
+5.2.5       Ensure SSH LogLevel is appropriate (Automated)                                            Pass
+5.2.6       Ensure SSH PAM is enabled (Automated)                                                     Pass
+5.2.7       Ensure SSH root login is disabled (Automated)                                             Pass
+5.2.8       Ensure SSH HostbasedAuthentication is disabled (Automated)                                Pass
+5.2.9       Ensure SSH PermitEmptyPasswords is disabled (Automated)                                   Pass
+5.2.10      Ensure SSH PermitUserEnvironment is disabled (Automated)                                  Pass
+5.2.11      Ensure SSH IgnoreRhosts is enabled (Automated)                                            Pass
+5.2.12      Ensure SSH X11 forwarding is disabled (Automated)                                         Fail
+5.2.13      Ensure only strong Ciphers are used (Automated)                                           Pass
+5.2.14      Ensure only strong MAC algorithms are used (Automated)                                    Pass
+5.2.15      Ensure only strong Key Exchange algorithms are used (Automated)                           Pass
+5.2.16      Ensure SSH AllowTcpForwarding is disabled (Automated)                                     Pass
+5.2.17      Ensure SSH warning banner is configured (Automated)                                       Pass
+5.2.18      Ensure SSH MaxAuthTries is set to 4 or less (Automated)                                   Fail
+5.2.19      Ensure SSH MaxStartups is configured (Automated)                                          Pass
+5.2.20      Ensure SSH MaxSessions is set to 10 or less (Automated)                                   Pass
+5.2.21      Ensure SSH LoginGraceTime is set to one minute or less (Automated)                        Fail
+5.2.22      Ensure SSH Idle Timeout Interval is configured (Automated)                                Fail
+5.3.1       Ensure sudo is installed (Automated)                                                      Pass
+5.3.2       Ensure sudo commands use pty (Automated)                                                  Pass
+5.3.3       Ensure sudo log file exists (Automated)                                                   Pass
+5.3.4       Ensure users must provide password for privilege escalation (Automated)                   Pass
+5.3.5       Ensure re-authentication for privilege escalation is not disabled globally (Automated)    Pass
+5.3.6       Ensure sudo authentication timeout is configured correctly (Automated)                    NoAccess
+5.3.7       Ensure access to the su command is restricted (Automated)                                 Pass
+5.5.1.1     Ensure minimum days between password changes is configured (Automated)                    Pass
+Pass                                                                                                 
