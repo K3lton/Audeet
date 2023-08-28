@@ -1,6 +1,6 @@
 # Disclaimer
 This tool is not 100% safe and users discretion is advised.
-This tool is prone to error and users should check the reports carefully.
+This tool is prone to error and users should check the reports carefully. This tool only runs checks on the linux version 22.04.
 
 # Audeet - Automated Linux Tool
 
